@@ -1,0 +1,98 @@
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    /* background: peachpuff; */
+    border: 2px solid brown; 
+    /* height: 250px; */
+    /* flex: 1 1 auto; */
+  }
+
+  .flex-container header {
+    background: #1F2937;
+    border: 4px solid brown;
+    height: 75px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+.flex-container .nav {
+  border: 1px solid blue;
+}
+  .quote {
+      font-size: 36px;
+      font-style: italic;
+      font-weight: lighter;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+
+  }
+
+  .author {
+    font-weight: bold;
+  }
+
+  .flex-container img {
+    max-height: 100%;
+    max-width: 100%;
+    
+  }
+  
+  .plant {
+      height: 200px;
+      width: 200px;
+      
+
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .left {
+    display: flex;
+    justify-content: left;
+    background: #1F2937;
+    color: white;
+  }
+
+  .right {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#1F2937;
+    color: white;
+    
+  }
+
+  .picrow {
+    border: 2px solid blue;
+  }
+
+  .three
+  {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottomdiv
+  {
+  display: flex; 
+  background-color: #3882F6;
+    
+  }
+
+  .two
+  {
+    background-color: #E5E7EB; 
+  
+  }
